@@ -1,0 +1,91 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "description": "This is api for NovaCart",
+        "version": "__version__"
+    },
+    "tags": [
+        {
+            "name": "PUBLIC ROUTE",
+            "description": "Public Route"
+        }
+    ],
+    "paths": {
+        "/": {
+            "summary": "Testing Default Route",
+            "get": {
+                "description": "Testing Default Route",
+                "tags": [
+                    "PUBLIC ROUTE"
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Health Check"
+                    }
+                }
+            }
+        },
+        "/catagories": {
+            "summary": "Testing catagories Route",
+            "get": {
+                "description": "Testing catagories Route",
+                "tags": [
+                    "PUBLIC ROUTE"
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Categories Route"
+                    }
+                }
+            }
+        },
+        "/banner": {
+            "summary": "Testing Banner Route",
+            "get": {
+                "description": "Testing Banner Route",
+                "tags": [
+                    "PUBLIC ROUTE"
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Banner Route"
+                    }
+                }
+            }
+        },
+        "/items": {
+            "summary": "Testing Items Route",
+            "get": {
+                "description": "Testing Items Route",
+                "tags": [
+                    "PUBLIC ROUTE"
+                ],
+                "parameters": [
+                    {
+                        "in": "query",
+                        "name": "lcost",
+                        "schema": {
+                            "type": "integer"
+                        },
+                        "required": false,
+                        "description": "Lowest cost for filter"
+                    },
+                    {
+                        "in": "query",
+                        "name": "hcost",
+                        "schema": {
+                            "type": "integer"
+                        },
+                        "required": false,
+                        "description": "Highest cost for filter"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Items details Route"
+                    }
+                }
+            }
+        }
+    }
+}

@@ -4,6 +4,13 @@ let Mongo = require('mongodb')
 let port = 9110;
 let cors = require('cors');
 
+let swaggerUi = require('swagger-ui-express')
+let swaggerDocument = require('./swagger.json')
+let package = require('./package.json')
+
+swaggerDocument.info.version = package.version
+
+app.use('/api-doc',swaggerUi.serve,swaggerUi.setup(swaggerDocument))
 app.use(cors())
 
 let { dbConnect, getData } = require('./controller/dbController');
@@ -32,7 +39,7 @@ app.get('/items', async (req, res) => {
     let collection = "items";
     let lcost = Number(req.query.lcost)
     let hcost = Number(req.query.hcost)
-    if (lcost & hcost) {
+    if (lcost && hcost) {
         query = {
             $and: [{ price: { $gt: lcost, $lt: hcost } }]
         }
@@ -48,7 +55,7 @@ app.get('/electronics', async (req, res) => {
     let collection = "electronics";
     let lcost = Number(req.query.lcost)
     let hcost = Number(req.query.hcost)
-    if (lcost & hcost) {
+    if (lcost && hcost) {
         query = {
             $and: [{ price: { $gt: lcost, $lt: hcost } }]
         }
@@ -62,7 +69,7 @@ app.get('/fashion', async (req, res) => {
     let collection = "fashion";
     let lcost = Number(req.query.lcost)
     let hcost = Number(req.query.hcost)
-    if (lcost & hcost) {
+    if (lcost && hcost) {
         query = {
             $and: [{ price: { $gt: lcost, $lt: hcost } }]
         }
@@ -76,7 +83,7 @@ app.get('/home_kitchen', async (req, res) => {
     let collection = "home_kitchen";
     let lcost = Number(req.query.lcost)
     let hcost = Number(req.query.hcost)
-    if (lcost & hcost) {
+    if (lcost && hcost) {
         query = {
             $and: [{ price: { $gt: lcost, $lt: hcost } }]
         }
@@ -90,7 +97,7 @@ app.get('/sports_outdoor', async (req, res) => {
     let collection = "sports_outdoor";
     let lcost = Number(req.query.lcost)
     let hcost = Number(req.query.hcost)
-    if (lcost & hcost) {
+    if (lcost && hcost) {
         query = {
             $and: [{ price: { $gt: lcost, $lt: hcost } }]
         }
@@ -104,7 +111,7 @@ app.get('/toys_games', async (req, res) => {
     let collection = "toys_games";
     let lcost = Number(req.query.lcost)
     let hcost = Number(req.query.hcost)
-    if (lcost & hcost) {
+    if (lcost && hcost) {
         query = {
             $and: [{ price: { $gt: lcost, $lt: hcost } }]
         }
@@ -118,7 +125,7 @@ app.get('/beauty_personal_care', async (req, res) => {
     let collection = "beauty_presonal_care";
     let lcost = Number(req.query.lcost)
     let hcost = Number(req.query.hcost)
-    if (lcost & hcost) {
+    if (lcost && hcost) {
         query = {
             $and: [{ price: { $gt: lcost, $lt: hcost } }]
         }
