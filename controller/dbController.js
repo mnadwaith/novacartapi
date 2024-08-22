@@ -24,7 +24,18 @@ async function getData(colName,query) {
     return output;
 }
 
+async function postData(colName,data){
+    let output;
+    try{
+        output = await db.collection(colName).insertOne(data)
+    }catch(error){
+        console.error("Error derails:",error.message)
+    }
+    return output
+}
+
 module.exports = {
     dbConnect, 
-    getData
+    getData,
+    postData
 }

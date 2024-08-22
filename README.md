@@ -15,6 +15,8 @@ home and kitchen - https://novacartapi.onrender.com/home_kitchen
 sport and outdoor - https://novacartapi.onrender.com/sports_outdoor
 toys and games - https://novacartapi.onrender.com/toys_games
 beauty and personal care - https://novacartapi.onrender.com/beauty_personal_care
+place order - https://novacartapi.onrender.com/placeOrder
+view order - https://novacartapi.onrender.com/viewOrder
 
 
 Cost Filter

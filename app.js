@@ -1,6 +1,5 @@
 let express = require('express');
 let app = express();
-let Mongo = require('mongodb')
 let port = 9110;
 let cors = require('cors');
 
@@ -12,8 +11,9 @@ swaggerDocument.info.version = package.version
 
 app.use('/api-doc',swaggerUi.serve,swaggerUi.setup(swaggerDocument))
 app.use(cors())
+app.use(express.json())
 
-let { dbConnect, getData } = require('./controller/dbController');
+let { dbConnect, getData, postData } = require('./controller/dbController');
 
 
 app.get('/', (req, res) => {
@@ -134,6 +134,19 @@ app.get('/beauty_personal_care', async (req, res) => {
     res.send(output);
 });
 
+app.post('/placeOrder',async(req,res)=>{
+    let data = req.body;
+    let collection = "orders"
+    let response = await postData(collection,data)
+    res.send(response)
+})
+
+app.get('/viewOrder', async (req, res) => {
+    let query = {};
+    let collection = "orders";
+    let output = await getData(collection, query);
+    res.send(output);
+});
 
 app.listen(port, (err) => {
     dbConnect();
