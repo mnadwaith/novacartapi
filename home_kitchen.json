@@ -1,0 +1,66 @@
+     [
+      {
+        "id": 1,
+        "name": "Sofa",
+        "brand": "BrandH",
+        "model": "ComfortPlus",
+        "price": 499.99,
+        "material": "Leather",
+        "features": [
+          "Reclining function",
+          "Soft cushioning",
+          "Durable frame"
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Blender",
+        "brand": "BrandI",
+        "model": "BlendMaster 3000",
+        "price": 79.99,
+        "features": [
+          "Multiple speed settings",
+          "Stainless steel blades",
+          "Easy to clean"
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Dining Table",
+        "brand": "BrandJ",
+        "material": "Wood",
+        "price": 349.99,
+        "features": [
+          "Seats 6 people",
+          "Elegant design",
+          "Scratch-resistant surface"
+        ]
+      },
+      {
+        "id": 4,
+        "name": "Bed Linen Set",
+        "brand": "BrandK",
+        "size": "King",
+        "price": 89.99,
+        "material": "Cotton",
+        "features": [
+          "Soft and breathable",
+          "Includes pillowcases",
+          "Easy care"
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Ceiling Fan",
+        "brand": "BrandL",
+        "model": "AirFlow 2000",
+        "price": 129.99,
+        "features": [
+          "3-speed settings",
+          "Remote control",
+          "Quiet operation"
+        ]
+      }
+    ]
+  
+  

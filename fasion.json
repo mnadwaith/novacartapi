@@ -1,0 +1,73 @@
+[
+      {
+        "id": 1,
+        "name": "Men's T-Shirt",
+        "brand": "BrandC",
+        "size": "L",
+        "color": "Blue",
+        "price": 29.99,
+        "material": "Cotton",
+        "features": [
+          "Regular fit",
+          "Machine washable",
+          "Breathable fabric"
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Women's Dress",
+        "brand": "BrandD",
+        "size": "M",
+        "color": "Red",
+        "price": 59.99,
+        "material": "Polyester",
+        "features": [
+          "A-line silhouette",
+          "Zipper closure",
+          "Comfortable lining"
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Sneakers",
+        "brand": "BrandE",
+        "model": "SportX",
+        "size": "10",
+        "color": "Black",
+        "price": 89.99,
+        "material": "Mesh",
+        "features": [
+          "Breathable upper",
+          "Cushioned sole",
+          "Durable grip"
+        ]
+      },
+      {
+        "id": 4,
+        "name": "Leather Wallet",
+        "brand": "BrandF",
+        "color": "Brown",
+        "price": 49.99,
+        "material": "Genuine Leather",
+        "features": [
+          "RFID protection",
+          "Multiple card slots",
+          "Sleek design"
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Gold Necklace",
+        "brand": "BrandG",
+        "length": "18 inches",
+        "price": 299.99,
+        "material": "Gold",
+        "features": [
+          "Elegant design",
+          "High polish finish",
+          "Secure clasp"
+        ]
+      }
+    ]
+  
+  

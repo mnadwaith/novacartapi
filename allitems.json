@@ -1,0 +1,408 @@
+[
+    {
+        "id": 1,
+        "category": "Electronics",
+        "name": "Smartphone",
+        "brand": "BrandX",
+        "model": "XPhone Pro 12",
+        "price": 999.99,
+        "features": [
+            "6.7-inch OLED display",
+            "Triple rear camera system",
+            "5G connectivity",
+            "128GB storage"
+        ]
+    },
+    {
+        "id": 2,
+        "category": "Electronics",
+        "name": "Laptop",
+        "brand": "BrandY",
+        "model": "UltraBook 15",
+        "price": 1299.99,
+        "features": [
+            "15.6-inch Full HD display",
+            "Intel i7 processor",
+            "16GB RAM",
+            "512GB SSD"
+        ]
+    },
+    {
+        "id": 3,
+        "category": "Electronics",
+        "name": "Smartwatch",
+        "brand": "BrandZ",
+        "model": "WatchFit Pro",
+        "price": 299.99,
+        "features": [
+            "1.4-inch AMOLED display",
+            "Heart rate monitoring",
+            "GPS tracking",
+            "Long battery life"
+        ]
+    },
+    {
+        "id": 4,
+        "category": "Electronics",
+        "name": "Headphones",
+        "brand": "BrandA",
+        "model": "SoundBuds 2024",
+        "price": 199.99,
+        "features": [
+            "Noise-canceling",
+            "Bluetooth 5.0",
+            "20-hour battery life",
+            "Comfortable ear cushions"
+        ]
+    },
+    {
+        "id": 5,
+        "category": "Electronics",
+        "name": "Digital Camera",
+        "brand": "BrandB",
+        "model": "SnapMaster 5000",
+        "price": 799.99,
+        "features": [
+            "24.2 MP sensor",
+            "4K video recording",
+            "Wi-Fi connectivity",
+            "Interchangeable lenses"
+        ]
+    },
+    {
+        "id": 6,
+        "category": "Beauty and Personal Care",
+        "name": "Moisturizer",
+        "brand": "BrandM",
+        "model": "HydraBoost",
+        "price": 29.99,
+        "features": [
+            "Hydrating formula",
+            "Suitable for all skin types",
+            "Non-greasy"
+        ]
+    },
+    {
+        "id": 7,
+        "category": "Beauty and Personal Care",
+        "name": "Shampoo",
+        "brand": "BrandN",
+        "model": "SilkShine",
+        "price": 15.99,
+        "features": [
+            "Sulfate-free",
+            "Enhances shine",
+            "Strengthens hair"
+        ]
+    },
+    {
+        "id": 8,
+        "category": "Beauty and Personal Care",
+        "name": "Makeup Foundation",
+        "brand": "BrandO",
+        "model": "Flawless Finish",
+        "price": 39.99,
+        "features": [
+            "Full coverage",
+            "Long-lasting",
+            "Matches skin tone"
+        ]
+    },
+    {
+        "id": 9,
+        "category": "Beauty and Personal Care",
+        "name": "Perfume",
+        "brand": "BrandP",
+        "model": "Eau de Luxe",
+        "price": 89.99,
+        "features": [
+            "Elegant scent",
+            "Long-lasting fragrance",
+            "Luxury packaging"
+        ]
+    },
+    {
+        "id": 10,
+        "category": "Beauty and Personal Care",
+        "name": "Body Wash",
+        "brand": "BrandQ",
+        "model": "Revitalize",
+        "price": 12.99,
+        "features": [
+            "Gentle on skin",
+            "Rich lather",
+            "Refreshing scent"
+        ]
+    },
+    {
+        "id": 11,
+        "category": "Fashion and Accessories",
+        "name": "Men's T-Shirt",
+        "brand": "BrandC",
+        "size": "L",
+        "color": "Blue",
+        "price": 29.99,
+        "material": "Cotton",
+        "features": [
+            "Regular fit",
+            "Machine washable",
+            "Breathable fabric"
+        ]
+    },
+    {
+        "id": 12,
+        "category": "Fashion and Accessories",
+        "name": "Women's Dress",
+        "brand": "BrandD",
+        "size": "M",
+        "color": "Red",
+        "price": 59.99,
+        "material": "Polyester",
+        "features": [
+            "A-line silhouette",
+            "Zipper closure",
+            "Comfortable lining"
+        ]
+    },
+    {
+        "id": 13,
+        "category": "Fashion and Accessories",
+        "name": "Sneakers",
+        "brand": "BrandE",
+        "model": "SportX",
+        "size": "10",
+        "color": "Black",
+        "price": 89.99,
+        "material": "Mesh",
+        "features": [
+            "Breathable upper",
+            "Cushioned sole",
+            "Durable grip"
+        ]
+    },
+    {
+        "id": 14,
+        "category": "Fashion and Accessories",
+        "name": "Leather Wallet",
+        "brand": "BrandF",
+        "color": "Brown",
+        "price": 49.99,
+        "material": "Genuine Leather",
+        "features": [
+            "RFID protection",
+            "Multiple card slots",
+            "Sleek design"
+        ]
+    },
+    {
+        "id": 15,
+        "category": "Fashion and Accessories",
+        "name": "Gold Necklace",
+        "brand": "BrandG",
+        "length": "18 inches",
+        "price": 299.99,
+        "material": "Gold",
+        "features": [
+            "Elegant design",
+            "High polish finish",
+            "Secure clasp"
+        ]
+    },
+    {
+        "id": 16,
+        "category": "Home and Kitchen",
+        "name": "Sofa",
+        "brand": "BrandH",
+        "model": "ComfortPlus",
+        "price": 499.99,
+        "material": "Leather",
+        "features": [
+            "Reclining function",
+            "Soft cushioning",
+            "Durable frame"
+        ]
+    },
+    {
+        "id": 17,
+        "category": "Home and Kitchen",
+        "name": "Blender",
+        "brand": "BrandI",
+        "model": "BlendMaster 3000",
+        "price": 79.99,
+        "features": [
+            "Multiple speed settings",
+            "Stainless steel blades",
+            "Easy to clean"
+        ]
+    },
+    {
+        "id": 18,
+        "category": "Home and Kitchen",
+        "name": "Dining Table",
+        "brand": "BrandJ",
+        "material": "Wood",
+        "price": 349.99,
+        "features": [
+            "Seats 6 people",
+            "Elegant design",
+            "Scratch-resistant surface"
+        ]
+    },
+    {
+        "id": 19,
+        "category": "Home and Kitchen",
+        "name": "Bed Linen Set",
+        "brand": "BrandK",
+        "size": "King",
+        "price": 89.99,
+        "material": "Cotton",
+        "features": [
+            "Soft and breathable",
+            "Includes pillowcases",
+            "Easy care"
+        ]
+    },
+    {
+        "id": 20,
+        "category": "Home and Kitchen",
+        "name": "Ceiling Fan",
+        "brand": "BrandL",
+        "model": "AirFlow 2000",
+        "price": 129.99,
+        "features": [
+            "3-speed settings",
+            "Remote control",
+            "Quiet operation"
+        ]
+    },
+    {
+        "id": 21,
+        "category": "Sports and Outdoors",
+        "name": "Yoga Mat",
+        "brand": "BrandR",
+        "model": "StretchPro",
+        "price": 39.99,
+        "features": [
+            "Non-slip surface",
+            "Extra cushioning",
+            "Durable material"
+        ]
+    },
+    {
+        "id": 22,
+        "category": "Sports and Outdoors",
+        "name": "Camping Tent",
+        "brand": "BrandS",
+        "model": "TrailBlazer",
+        "price": 149.99,
+        "features": [
+            "Waterproof",
+            "Easy setup",
+            "Fits 4 people"
+        ]
+    },
+    {
+        "id": 23,
+        "category": "Sports and Outdoors",
+        "name": "Mountain Bike",
+        "brand": "BrandT",
+        "model": "XtremeRide",
+        "price": 499.99,
+        "features": [
+            "21-speed gears",
+            "Front suspension",
+            "Durable frame"
+        ]
+    },
+    {
+        "id": 24,
+        "category": "Sports and Outdoors",
+        "name": "Running Shoes",
+        "brand": "BrandU",
+        "model": "SpeedRun",
+        "price": 79.99,
+        "features": [
+            "Lightweight",
+            "Breathable mesh",
+            "Cushioned sole"
+        ]
+    },
+    {
+        "id": 25,
+        "category": "Sports and Outdoors",
+        "name": "Dumbbell Set",
+        "brand": "BrandV",
+        "model": "StrengthMax",
+        "price": 119.99,
+        "features": [
+            "Adjustable weights",
+            "Ergonomic handles",
+            "Durable construction"
+        ]
+    },
+    {
+        "id": 26,
+        "category": "Toys and Games",
+        "name": "Building Blocks",
+        "brand": "BrandW",
+        "model": "MegaConstruct",
+        "price": 39.99,
+        "features": [
+            "100 pieces",
+            "Bright colors",
+            "Safe, non-toxic material"
+        ]
+    },
+    {
+        "id": 27,
+        "category": "Toys and Games",
+        "name": "Board Game",
+        "brand": "BrandX",
+        "model": "StrategyMaster",
+        "price": 29.99,
+        "features": [
+            "For 2-6 players",
+            "Includes game pieces and cards",
+            "Challenging strategy"
+        ]
+    },
+    {
+        "id": 28,
+        "category": "Toys and Games",
+        "name": "Educational Tablet",
+        "brand": "BrandY",
+        "model": "LearnTab 2024",
+        "price": 149.99,
+        "features": [
+            "Interactive learning apps",
+            "Durable design",
+            "Parental controls"
+        ]
+    },
+    {
+        "id": 29,
+        "category": "Toys and Games",
+        "name": "Puzzle",
+        "brand": "BrandZ",
+        "model": "PuzzleMaster 1000",
+        "price": 19.99,
+        "features": [
+            "1000 pieces",
+            "High-quality print",
+            "Challenging design"
+        ]
+    },
+    {
+        "id": 30,
+        "category": "Toys and Games",
+        "name": "Remote Control Car",
+        "brand": "BrandA",
+        "model": "Speedster Pro",
+        "price": 89.99,
+        "features": [
+            "High-speed performance",
+            "Durable construction",
+            "Long-range control"
+        ]
+    }
+]
