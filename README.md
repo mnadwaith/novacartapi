@@ -10,7 +10,7 @@ Banner - https://novacartapi.onrender.com/banner
 
 all items -https://novacartapi.onrender.com/items
 electronics - https://novacartapi.onrender.com/electronics
-fasion - https://novacartapi.onrender.com/fasion
+fashion - https://novacartapi.onrender.com/fashion
 home and kitchen - https://novacartapi.onrender.com/home_kitchen
 sport and outdoor - https://novacartapi.onrender.com/sports_outdoor
 toys and games - https://novacartapi.onrender.com/toys_games
